@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.background-example {
+    /* Set the background image using the URL of the image file */
+    background-image:url("image.jpeg");
+  
+    /* You can specify other background properties as well */
+    background-size: cover; /* Adjust the size of the background image */
+    background-repeat: no-repeat; /* Prevent image from repeating */
+    background-position: center center; /* Center the image */
+  
+    /* Define a height and width for the element to make the background visible */
+    width: 300px;
+    height: 200px;
+  }
